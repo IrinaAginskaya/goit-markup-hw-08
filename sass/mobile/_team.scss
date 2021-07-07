@@ -70,7 +70,8 @@
     fill: $general-accent-color;
     transform: scale(1.2);
   }
-  &:not(:last-child) {
-    margin-right: 10px;
-  }
+  margin-right: 10px;
+  // &:not(:last-child) {
+  //   margin-right: 10px;
+  // }
 }
