@@ -1,0 +1,17 @@
+header {
+  border-bottom: 1px solid $border-color;
+  height: 60px;
+}
+
+.logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: $color-of-reaction;
+  align-items: center;
+  margin: 16px 276px 16px 15px;
+}
+.chn-color {
+  color: $primary-text-color;
+}
