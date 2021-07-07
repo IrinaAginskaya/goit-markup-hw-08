@@ -1,0 +1,62 @@
+.send-form {
+  margin-left: 93px;
+}
+.send-form__title {
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: $general-accent-color;
+  margin-bottom: 20px;
+}
+.email-send {
+  width: 358px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+  padding-left: 16px;
+
+  &::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+.send-form__button {
+  display: inline-flex;
+  min-width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  border-color: transparent;
+  background: $color-of-reaction;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: $general-accent-color;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  padding: 10px 28px;
+  justify-content: center;
+
+  margin-left: 12px;
+
+  &:focus,
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.send-form__icon {
+  margin-left: 10px;
+}

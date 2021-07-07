@@ -1,0 +1,35 @@
+.hide {
+  display: none;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.aboutus {
+  display: flex;
+  justify-content: space-between;
+}
+.aboutus__list {
+  font-size: 14px;
+  line-height: 1.14;
+  margin-bottom: 10px;
+}
+
+.aboutus__description {
+  font-size: 14px;
+  line-height: 1.71;
+  color: $paragraph-color;
+}
+.us-list:not(:last-child) {
+  margin-right: 30px;
+}
+.aboutus__items {
+  display: flex;
+  justify-content: center;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 25px 0px;
+}

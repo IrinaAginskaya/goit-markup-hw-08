@@ -1,0 +1,24 @@
+.work {
+  padding-top: 0;
+}
+
+.work__title {
+  font-size: 36px;
+  line-height: 1.16;
+  color: $primary-text-color;
+
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+.worklist__item {
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}

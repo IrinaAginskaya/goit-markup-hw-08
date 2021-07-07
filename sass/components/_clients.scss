@@ -1,0 +1,36 @@
+.client__title {
+  font-size: 36px;
+  line-height: 1.16;
+  color: $primary-text-color;
+
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.client__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client__items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  border-color: #afb1b8;
+  fill: #afb1b8;
+  padding: 16px 32px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border-color: $color-of-reaction;
+    fill: $color-of-reaction;
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+}
