@@ -1,10 +1,138 @@
+// .footer {
+//   background-color: #2f303a;
+//   padding-top: 60px;
+//   padding-bottom: 60px;
+//   // margin-left: auto;
+//   // margin-right: auto;
+//   // padding-left: 60px;
+// }
+
+// .add-list {
+//   display: inline-block;
+// }
+
+// .logo-podval {
+//   display: inline-block;
+//   font-family: 'Raleway';
+//   font-weight: 700;
+//   font-size: 26px;
+//   line-height: 1.2;
+//   color: $general-accent-color;
+//   margin-bottom: 20px;
+//   padding-left: 163px;
+//   // margin-left: auto;
+//   // margin-right: auto;
+// }
+
+// .link-podval {
+//   color: rgba(255, 255, 255, 0.6);
+//   display: block;
+//   font-size: 14px;
+//   line-height: 1.7;
+//   font-style: normal;
+//   margin-bottom: 10px;
+//   padding-left: 165px;
+//   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+//   &:not(:last-child) {
+//     margin-bottom: 10px;
+//   }
+//   &:hover,
+//   &:focus {
+//     color: $color-of-reaction;
+//     transform: scale(1.1);
+//   }
+// }
+
+// .adress-podval {
+//   font-size: 14px;
+//   font-style: normal;
+//   line-height: 1.7;
+//   color: $general-accent-color;
+//   display: block;
+//   margin-bottom: 10px;
+// }
+
+// .add-list__item:not(:last-child) {
+//   margin-bottom: 10px;
+// }
+// .chn-color-ftr {
+//   color: $color-of-reaction;
+// }
+
+// .footersocial__title {
+//   font-size: 14px;
+//   line-height: 1.14;
+//   letter-spacing: 0.03em;
+//   text-transform: uppercase;
+
+//   color: $general-accent-color;
+//   margin-top: 60px;
+//   margin-bottom: 20px;
+// }
+// // .podval {
+// //   margin-left: auto;
+// //   margin-right: auto;
+// // }
+// // .podval {
+// //   display: flex;
+// //   align-items: baseline;
+// // }
+// // .all-adress {
+// // margin-right: 70px;
+// //   margin-right: auto;
+// //   margin-left: auto;
+// // }
+// .footersocial__list {
+//   display: flex;
+//   list-style: none;
+//   justify-content: flex-start;
+// }
+// .footersocial__link {
+//   display: flex;
+//   justify-content: center;
+//   border-radius: 50%;
+//   background-color: rgba(255, 255, 255, 0.1);
+//   padding: 12px;
+//   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+//   &:hover,
+//   &:focus {
+//     background-color: $color-of-reaction;
+//     transform: scale(1.2);
+//   }
+// }
+
+// .footersocial__link--color {
+//   fill: $general-accent-color;
+// }
+
+// .footersocial__item:not(:last-child) {
+//   margin-right: 10px;
+// }
+
+// .send-form__title {
+//   padding-left: 131px;
+// }
+// // .send-form__button {
+// //   margin-left: auto;
+// //   margin-right: auto;
+// // }
+// // .proverka {
+// //   margin-right: auto;
+// //   margin-left: auto;
+// // }
+// // .podval__section {
+// //   display: flex;
+// //   justify-content: space-between;
+// // }
+
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  // margin-left: auto;
-  // margin-right: auto;
-  // padding-left: 60px;
 }
 
 .add-list {
@@ -19,9 +147,6 @@
   line-height: 1.2;
   color: $general-accent-color;
   margin-bottom: 20px;
-  padding-left: 163px;
-  // margin-left: auto;
-  // margin-right: auto;
 }
 
 .link-podval {
@@ -31,7 +156,6 @@
   line-height: 1.7;
   font-style: normal;
   margin-bottom: 10px;
-  padding-left: 165px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -51,7 +175,6 @@
   line-height: 1.7;
   color: $general-accent-color;
   display: block;
-  margin-bottom: 10px;
 }
 
 .add-list__item:not(:last-child) {
@@ -68,22 +191,17 @@
   text-transform: uppercase;
 
   color: $general-accent-color;
-  margin-top: 60px;
+
   margin-bottom: 20px;
 }
-// .podval {
-//   margin-left: auto;
-//   margin-right: auto;
-// }
-// .podval {
-//   display: flex;
-//   align-items: baseline;
-// }
-// .all-adress {
-// margin-right: 70px;
-//   margin-right: auto;
-//   margin-left: auto;
-// }
+
+.podval {
+  display: flex;
+  align-items: baseline;
+}
+.all-adress {
+  margin-right: 70px;
+}
 .footersocial__list {
   display: flex;
   list-style: none;
@@ -112,19 +230,3 @@
 .footersocial__item:not(:last-child) {
   margin-right: 10px;
 }
-
-.send-form__title {
-  padding-left: 131px;
-}
-// .send-form__button {
-//   margin-left: auto;
-//   margin-right: auto;
-// }
-// .proverka {
-//   margin-right: auto;
-//   margin-left: auto;
-// }
-// .podval__section {
-//   display: flex;
-//   justify-content: space-between;
-// }
