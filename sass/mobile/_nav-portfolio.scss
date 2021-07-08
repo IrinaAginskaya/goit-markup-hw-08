@@ -5,6 +5,12 @@
   margin-bottom: 40px;
 }
 
+@media screen and (min-width: 768px) {
+  .button-list {
+    justify-content: center;
+  }
+}
+
 .button-list__portfolio {
   font-weight: 500;
   font-size: 16px;

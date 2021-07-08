@@ -686,15 +686,6 @@ header {
   padding-left: 131px;
 }
 
-.podval__section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 .send-form {
   margin-left: auto;
   margin-right: auto;
@@ -1252,6 +1243,13 @@ header {
   margin-bottom: 40px;
 }
 
+@media screen and (min-width: 768px) {
+  .button-list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .button-list__portfolio {
   font-weight: 500;
   font-size: 16px;
@@ -1327,7 +1325,7 @@ header {
   color: #212121;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
   margin-bottom: 4px;
 }
 
