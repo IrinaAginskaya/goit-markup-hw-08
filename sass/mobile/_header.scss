@@ -1,6 +1,10 @@
 header {
   border-bottom: 1px solid $border-color;
+}
+
+.nav {
   height: 60px;
+  padding-top: 16px;
 }
 
 .logo {
@@ -9,10 +13,11 @@ header {
   font-size: 26px;
   line-height: 1.2;
   color: $color-of-reaction;
-  align-items: center;
+  // align-items: center;
   // margin: 16px 276px 16px 15px;
-  margin-bottom: 16px;
-  margin-top: 16px;
+  // margin-bottom: 16px;
+  // margin-top: 16px;
+  // padding-top: 16px;
 }
 .chn-color {
   color: $primary-text-color;

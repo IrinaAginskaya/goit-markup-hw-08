@@ -5,6 +5,7 @@
 }
 .send-form__title {
   display: block;
+  justify-content: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -16,7 +17,8 @@
   margin-top: 60px;
 }
 .email-send {
-  width: 358px;
+  // width: 358px;
+  width: 450px;
   height: 50px;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -34,6 +36,8 @@
 
 .send-form__button {
   display: inline-flex;
+  justify-content: center;
+
   min-width: 200px;
   height: 50px;
   border-radius: 4px;
@@ -54,6 +58,8 @@
 
   // margin-left: 12px;
   margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 
   &:focus,
   &:hover {
@@ -63,4 +69,12 @@
 
 .send-form__icon {
   margin-left: 10px;
+}
+
+.adress-podval {
+  padding-left: 124px;
+}
+
+.footersocial__title {
+  padding-left: 167px;
 }
