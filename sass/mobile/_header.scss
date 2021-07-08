@@ -3,8 +3,17 @@ header {
 }
 
 .nav {
+  display: flex;
+  align-items: center;
   height: 60px;
-  padding-top: 16px;
+  justify-content: space-between;
+  // padding-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    height: 80px;
+  }
 }
 
 .logo {
@@ -23,16 +32,46 @@ header {
   color: $primary-text-color;
 }
 
-.contact-list {
-  display: flex;
-  align-items: center;
+// .contact-list {
+//   display: flex;
+//   align-items: center;
+//   flex-direction: column;
+// }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .contact-list {
+    display: flex;
+    // align-items: center;
+    flex-direction: column;
+    margin-top: 21px;
+    // justify-content: flex-start;
+  }
 }
+@media screen and (min-width: 1200px) {
+  .contact-list {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+
 .contact-list__item {
   display: flex;
-  align-items: center;
 
-  &:not(:first-child) {
-    margin-left: 30px;
+  align-items: center;
+  // &:not(:first-child) {
+  // margin-left: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-list__item {
+    display: flex;
+
+    // align-items: center;
+    align-items: flex-start;
+    &:not(:first-child) {
+      margin-left: 30px;
+    }
   }
 }
 
@@ -45,7 +84,13 @@ header {
   margin-right: 10px;
   fill: currentColor;
 }
-
+@media screen and (min-width: 768px) {
+  .navList {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 84px;
+  }
+}
 .navList__item:not(:last-child) {
   margin-right: 30px;
 }
@@ -77,6 +122,8 @@ header {
 }
 
 .contact-list__link {
+  // display: flex;
+  // flex-direction: column;
   color: $paragraph-color;
   font-weight: 500;
   font-size: 14px;
@@ -85,6 +132,7 @@ header {
   cursor: pointer;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -100,3 +148,19 @@ header {
 // .nav {
 //   padding-top: 16px;
 // }
+@media (max-width: 768px) {
+  .hidden-navigaton .navList {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .nav .contact-list {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hidden-navigaton {
+    display: flex;
+    align-items: baseline;
+  }
+}
