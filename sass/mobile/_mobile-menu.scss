@@ -28,7 +28,9 @@
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vw;
+  height: 100%;
+  // height: 796px;
+  // height: 100vw;
   padding: 48px 40px;
   background-color: $general-accent-color;
   z-index: 999;
@@ -57,17 +59,21 @@
 // .mobile-menu {
 // }
 .mobile-menu__link {
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 1.17;
-  // text-align: center;
-  letter-spacing: 0.02em;
-  color: $primary-text-color;
   margin-bottom: 32px;
 }
 
-.mobile-menu__link:hover,
-.mobile-menu__link:focus {
+.mobile-menu__link--accent {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17;
+  text-decoration: none;
+  // text-align: center;
+  letter-spacing: 0.02em;
+  color: $primary-text-color;
+}
+
+.mobile-menu__link--accent:hover,
+.mobile-menu__link--accent:focus {
   color: $color-of-reaction;
   cursor: pointer;
 }
@@ -79,7 +85,7 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   color: $paragraph-color;
-  margin-bottom: 32px;
+  // margin-bottom: 32px;
 }
 
 .mobile-menu__adress:hover,
@@ -89,7 +95,7 @@
 }
 
 .mobile-menu__adress--list {
-  margin-top: 302px;
+  // margin-top: 302px;
   margin-bottom: 64px;
 }
 
@@ -103,8 +109,24 @@
   letter-spacing: 0.02em;
 
   color: $color-of-reaction;
-  border-left: 1px solid rgba(33, 33, 33, 0.2);
 }
+.mobile-menu__social--line {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22px;
+  letter-spacing: 0.02em;
+  color: $color-of-reaction;
+}
+
+.mobile-menu__social--accent {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  padding-right: 9px;
+}
+
+// .mobile-menu__social--line:last-of-type {
+//   // border-right: none;
+//   // padding-right: none;
+// }
 
 // .mobile-menu__social--line::after {
 //   content: '';
@@ -125,4 +147,38 @@
   .nav .contact-list {
     display: none;
   }
+}
+
+// .mobile-menu__column ul {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: flex-end;
+// }
+.mobile-menu__adress--mail {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.02em;
+  color: $paragraph-color;
+
+  &:hover,
+  &:focus {
+    color: $color-of-reaction;
+  }
+}
+.mobile-menu__adress--tel {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: $paragraph-color;
+
+  &:hover,
+  &:focus {
+    color: $color-of-reaction;
+  }
+}
+
+.mobile-menu__adress {
+  margin-bottom: 32px;
 }
