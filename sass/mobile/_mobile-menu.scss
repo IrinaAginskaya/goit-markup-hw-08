@@ -58,7 +58,7 @@
 
 // .mobile-menu {
 // }
-.mobile-menu__link {
+.mobile-menu__link:not(:last-child) {
   margin-bottom: 32px;
 }
 
@@ -169,10 +169,22 @@
   }
 }
 
-.mobile-menu__adress {
+.mobile-menu__adress:not(:last-child) {
   margin-bottom: 32px;
 }
 
-.mobile-menu__link--list {
-  margin-bottom: 302px;
+// .mobile-menu__link--list {
+//   // margin-bottom: 302px;
+// }
+
+.mobile-menu {
+  width: 100%;
+  height: 100%;
+}
+
+.mobile-menu__column {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

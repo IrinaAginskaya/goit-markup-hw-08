@@ -38,7 +38,7 @@ header {
 //   flex-direction: column;
 // }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .contact-list {
     display: flex;
     // align-items: center;
@@ -155,12 +155,12 @@ header {
 // .nav {
 //   padding-top: 16px;
 // }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .hidden-navigaton .navList {
     display: none;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .nav .contact-list {
     display: none;
   }

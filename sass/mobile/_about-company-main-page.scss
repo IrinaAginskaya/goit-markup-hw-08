@@ -72,6 +72,12 @@
     margin-bottom: 30px;
   }
 }
+
+.us-list {
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
 @media screen and (min-width: 768px) {
   .us-list {
     display: flex;
