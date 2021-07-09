@@ -84,8 +84,10 @@
     // align-content: center;
   }
 }
-.all-adress {
-  margin-bottom: 60px;
+@media screen and (max-width: 767px) {
+  .all-adress {
+    margin-bottom: 60px;
+  }
 }
 @media screen and (min-width: 768px) {
   .all-adress {
